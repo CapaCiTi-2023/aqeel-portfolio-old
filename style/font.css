@@ -1,0 +1,43 @@
+/* FONT FAMILIES */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;800&family=Poppins:wght@300;400;500;600;700;800&family=Qwitcher+Grypen:wght@400;700&display=swap');
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_icons_google */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+
+h1 h2 h3 p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-title h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#top-nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link-color-1 {
+    color: black;
+}
+.link-color-2 {
+    color: rgb(255, 255, 255);
+}
+.left-box {
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    text-align: end;
+}
+.left-box h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 10px 0 0 #2E8BC0, 15px 0px 0 #0C2D48;
+}
+
+footer p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
