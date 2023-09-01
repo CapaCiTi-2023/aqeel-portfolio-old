@@ -1,7 +1,5 @@
 /* FONT FAMILIES */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;800&family=Poppins:wght@300;400;500;600;700;800&family=Qwitcher+Grypen:wght@400;700&display=swap');
-/* https://www.w3schools.com/css/tryit.asp?filename=trycss_icons_google */
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
 
@@ -31,14 +29,14 @@ h1 h2 h3 p {
     color: rgb(255, 255, 255);
     font-family: 'Orbitron', sans-serif;
     text-shadow: 7px 0 0 #2E8BC0, 10px 0px 0 #0C2D48;
-    font-size: 7rem;
+    font-size: 9rem;
     text-align: end;
     
 }
 .left-box h2 {
     color: rgb(0, 0, 0);
     font-family: 'Orbitron', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: end;
 }
 
