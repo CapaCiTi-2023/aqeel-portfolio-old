@@ -25,18 +25,36 @@ h1 h2 h3 p {
 .link-color-2 {
     color: rgb(255, 255, 255);
 }
-.left-box {
+
+/* hero-section */
+.left-box h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 7px 0 0 #2E8BC0, 10px 0px 0 #0C2D48;
+    font-size: 7rem;
+    text-align: end;
+    
+}
+.left-box h2 {
     color: rgb(0, 0, 0);
     font-family: 'Orbitron', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: end;
 }
-.left-box h1 {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    text-shadow: 10px 0 0 #2E8BC0, 15px 0px 0 #0C2D48;
+
+.left-box p {
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    text-align: end;
 }
 
+
+.right-box p {
+    color: rgb(255, 255, 255);
+}
+
+/* footer section */
 footer p {
     color: black;
     font-family: 'Poppins', sans-serif;

@@ -1,6 +1,6 @@
 #hero {
     background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, #2E8BC0 50%, #2E8BC0 50%);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 /* navigation */
@@ -30,22 +30,31 @@
 #land-message {
     display: flex;
     justify-content: center;
-    padding: 150px 10px;
-    min-height: 100vh;
+    padding: 100px 0px 0px;
+    min-height: 80vh;
+    /* height: calc(60% - 20px); */
 }
 .left-box {
     width: 50%;
     padding: 10px 20px;
 }
+/* image */
+.border {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
 .right-box {
     width: 50%;
     padding: 20px 20px;
 }
 
-/* image */
-.border {
-    border: 1px solid black;
+#hero-footer {
+    text-align: right;
 }
+
+
 
 /* about-section */
 
@@ -66,8 +75,13 @@ footer {
 }
 
 .icon {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 0 10px; 
     text-decoration: none; 
     color: #333; 
+}
+.icon-2 {
+    font-size: 3rem;
+    color: #000000;
+    /* text-shadow: -1px -1px 0 #000000, 1px -1px 0 #fff, -1px 1px 0 #000000, 1px 1px 0 #fff; */
 }
